@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "629857021484",
+    "firebase_url": "https://kajjafisioapp-e0cba-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kajjafisioapp-e0cba",
+    "storage_bucket": "kajjafisioapp-e0cba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629857021484:android:491ba5de6bab09a63aab89",
+        "android_client_info": {
+          "package_name": "com.example.kajjafisio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629857021484-bfj2qv1rohbhr6lr4bmbr4fohlpmglcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kajjafisio",
+            "certificate_hash": "b8a9979376472edcfcaa538506d5cf593032974b"
+          }
+        },
+        {
+          "client_id": "629857021484-adcmpfbjjncfavohk2q545pb8656mous.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_dlBvsexRCgkUm8tAuCJmYqPesWXgCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629857021484-adcmpfbjjncfavohk2q545pb8656mous.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "629857021484-ob1i91nk7nncm0kedlptojl06klpjuuj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApplication1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

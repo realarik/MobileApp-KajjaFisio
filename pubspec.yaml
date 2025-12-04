@@ -1,0 +1,51 @@
+name: kajjafisioapp
+description: A new Flutter project
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.9.1
+  image_picker: ^1.0.4
+  cupertino_icons: ^1.0.8
+  # Firebase dependencies
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_database: ^11.1.4
+  firebase_storage: ^12.3.2
+  # UI and functionality
+  url_launcher: ^6.3.1
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.8.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon/KJFISIO.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/Splash screen.jpg
+    - assets/images/Logo.jpg
+    - assets/images/Logo_K.jpg
+    - assets/images/Logo_KJ.png
+    - assets/images/fisiopic.jpg
+   

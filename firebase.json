@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "kajjafisioapp-e0cba",
+          "appId": "1:629857021484:android:491ba5de6bab09a63aab89",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "kajjafisioapp-e0cba",
+          "configurations": {
+            "android": "1:629857021484:android:491ba5de6bab09a63aab89",
+            "ios": "1:629857021484:ios:6344c23ea66747663aab89",
+            "macos": "1:629857021484:ios:6344c23ea66747663aab89",
+            "web": "1:629857021484:web:5243e58f9e54ebd73aab89",
+            "windows": "1:629857021484:web:e416e400dfd481c33aab89"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-southeast1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

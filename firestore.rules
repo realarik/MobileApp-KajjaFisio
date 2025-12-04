@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth.token.email == "terapiskjfisiohome25@gmail.com";
+    }
+
+    // ADMIN: Hanya admin bisa baca/tulis dataadmin
+    match /users/admin/dataadmin/{adminId} {
+      allow read, write: if isAdmin() && adminId == request.auth.uid;
+    }
+
+    // PASIEN: Bisa baca/tulis hanya data mereka sendiri
+    match /users/pasien/datapasien/{patientId} {
+      allow read, write: if request.auth != null && patientId == request.auth.uid;
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+    }
+
+    // ORDERS
+    match /ordersfisio/pasien/orders/{orderId} {
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      allow read: if isAdmin() || (request.auth != null && resource.data.userId == request.auth.uid);
+      allow update, delete: if isAdmin();
+    }
+
+    // Default: Blokir semua akses lain
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
