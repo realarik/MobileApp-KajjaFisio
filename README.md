@@ -155,9 +155,6 @@ This project is fully owned and created by realarik.
 All rights reserved. 
 Unauthorized copying, modification, or distribution of this project is strictly prohibited.
 
-Copyright (c) 2025 realarik
-Permission is hereby granted...
-
 ---
 
 # 💬 Contact
