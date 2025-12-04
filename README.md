@@ -30,6 +30,7 @@ The project is lightweight, clean, and simple to modify — perfect for develope
 
 ## 📁 Project Structure
 
+```
 KajjaFisioApp/
 │
 ├── lib/
@@ -43,9 +44,7 @@ KajjaFisioApp/
 ├── ios/ # iOS native configuration
 ├── assets/ # Images, fonts
 ├── pubspec.yaml # Flutter dependencies & configurations
-
-
----
+```
 
 # 📘 How to Use This Project (For Other Developers)
 
