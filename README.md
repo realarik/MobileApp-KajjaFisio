@@ -1,18 +1,169 @@
-# KajjaFisio
+# 📱 KajjaFisio Mobile App
 
-## Getting Started
+**KajjaFisio Mobile App** is an Android application built with **Flutter** and **Firebase**.  
+This app is designed to help users book **home physiotherapy (home therapy)** services easily through their mobile devices.
 
-This project is a starting point for a Flutter application.
+The project is lightweight, clean, and simple to modify — perfect for developers who want to use or extend it.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# MobileApp-KajjaFisio
-Android Mobile App "KajjaFisio"
->>>>>>> e1669815d2db9934c0552ac4dfac25a5a5b1d0bd
+- 📅 Book home physiotherapy sessions  
+- 👤 User authentication (Login & Register) using Firebase  
+- 🔥 Firebase Realtime Database / Firestore for storing booking data  
+- 📍 Real-time updates  
+- 🎨 Modern and clean UI  
+- ⚡ Fast performance (built with Flutter)
+
+---
+
+## 🛠️ Technologies Used
+
+- **Flutter (Dart)**
+- **Firebase Authentication**
+- **Firebase Firestore / Realtime Database**
+- **Firebase Storage** (if used for images)
+- **Material Design Components**
+
+---
+
+## 📁 Project Structure
+
+KajjaFisioApp/
+│
+├── lib/
+│ ├── screens/ # App pages (login, booking, dashboard, etc.)
+│ ├── widgets/ # Reusable UI components
+│ ├── services/ # Firebase services
+│ ├── models/ # Data models
+│ └── main.dart # Entry point of the app
+│
+├── android/ # Android native configuration
+├── ios/ # iOS native configuration
+├── assets/ # Images, fonts
+├── pubspec.yaml # Flutter dependencies & configurations
+
+
+---
+
+# 📘 How to Use This Project (For Other Developers)
+
+Follow these steps to run this project on your device or emulator.
+
+---
+
+## 1️⃣ Requirements
+
+Make sure you have installed:
+
+- Flutter SDK → https://docs.flutter.dev/get-started/install  
+- Android Studio (for emulator + platform tools)  
+- VS Code (optional but recommended)  
+- Git  
+
+Check your Flutter setup:
+flutter doctor
+
+---
+
+## 2️⃣ Clone the Repository
+git clone https://github.com/realarik/MobileApp-KajjaFisio.git
+cd MobileApp-KajjaFisio
+
+
+---
+
+## 3️⃣ Install Dependencies
+flutter pub get
+
+---
+
+## 4️⃣ Setup Firebase (IMPORTANT)
+
+This project uses Firebase.  
+To connect your own Firebase project, follow these steps:
+
+### **Step 1 — Create Firebase project**
+https://console.firebase.google.com/
+
+### **Step 2 — Add Android app**
+You will need:
+
+- Android package name  
+- `google-services.json`
+
+### **Step 3 — Download the `google-services.json`**
+Place it inside:
+android/app/google-services.json
+
+
+### **Step 4 — Enable required Firebase services**
+
+- Firebase Authentication  
+- Firestore Database / Realtime Database  
+- Firebase Storage (optional)
+
+### **Step 5 — Add FlutterFire packages**
+
+Already included in `pubspec.yaml`, but you can check with:
+flutter pub get
+flutterfire configure
+
+
+---
+
+## 5️⃣ Run the Application
+
+Start an Android emulator or connect a real device.
+
+Then run:
+flutter run
+
+
+The app should launch successfully.
+
+---
+
+## 6️⃣ Build APK
+
+### Debug APK:
+flutter build apk
+
+### Release APK:
+flutter build apk --release
+
+Find the APK here:
+build/app/outputs/flutter-apk/
+
+
+---
+
+# 🙌 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create a feature branch  
+3. Commit your changes  
+4. Push the branch  
+5. Submit a Pull Request  
+
+---
+
+# 📄 License
+This project is fully owned and created by realarik.
+All rights reserved. 
+Unauthorized copying, modification, or distribution of this project is strictly prohibited.
+
+Copyright (c) 2025 realarik
+
+Permission is hereby granted...
+
+---
+
+# 💬 Contact
+
+**Developer:** realarik  
+
+If you have questions or want to collaborate, feel free to reach out!
