@@ -109,7 +109,6 @@ Already included in `pubspec.yaml`, but you can check with:
 flutter pub get
 flutterfire configure
 
-
 ---
 
 ## 5️⃣ Run the Application
@@ -135,11 +134,8 @@ flutter build apk --release
 Find the APK here:
 build/app/outputs/flutter-apk/
 
-
 ---
 
-
----
 
 ## 🤝 Contributing
 
@@ -158,8 +154,6 @@ without explicit permission from the owner.
 
 ---
 
-
----
 
 ## 💬 Contact
 
