@@ -46,7 +46,7 @@ KajjaFisioApp/
 ├── pubspec.yaml # Flutter dependencies & configurations
 ```
 
-# 📘 How to Use This Project (For Other Developers)
+## 📘 How to Use This Project (For Other Developers)
 
 Follow these steps to run this project on your device or emulator.
 
@@ -138,27 +138,32 @@ build/app/outputs/flutter-apk/
 
 ---
 
-# 🙌 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository  
-2. Create a feature branch  
-3. Commit your changes  
-4. Push the branch  
-5. Submit a Pull Request  
 
 ---
 
-# 📄 License
-This project is fully owned and created by realarik.
-All rights reserved. 
-Unauthorized copying, modification, or distribution of this project is strictly prohibited.
+## 🤝 Contributing
+
+This project is private.  
+External contributions are not accepted unless approved by the owner.
 
 ---
 
-# 💬 Contact
+## 📄 License
 
-**Developer:** realarik  
+This project is fully created and owned by realarik.
+All rights reserved.
 
-If you have questions or want to collaborate, feel free to reach out!
+No part of this project may be copied, modified, distributed, or used commercially
+without explicit permission from the owner.
+
+---
+
+
+---
+
+## 💬 Contact
+
+Developer: **realarik**  
+Email: **candrikakalandra@gmail.com**
+
+Feel free to reach out for collaboration or business inquiries.
