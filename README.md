@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # KajjaFisio
 
 ## Getting Started
