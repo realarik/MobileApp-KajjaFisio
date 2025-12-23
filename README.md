@@ -158,6 +158,5 @@ without explicit permission from the owner.
 ## 💬 Contact
 
 Developer: **realarik**  
-Email: **candrikakalandra@gmail.com**
 
 Feel free to reach out for collaboration or business inquiries.
